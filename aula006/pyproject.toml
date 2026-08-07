@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.12.1"
 dependencies = [
+    "pre-commit>=4.6.1",
     "ruff>=0.16.2",
 ]
 
