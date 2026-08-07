@@ -42,7 +42,7 @@ def processar_temperaturas(path_do_txt: Path):
 
     print("Dados carregados. Calculando estatísticas...")
 
-    # Dicionário para armazenar os resultados calculados
+    # Dicionário para armazenar os resultados calculados novamente
     results = {}
 
     # Calculando min, média e max para cada estação
