@@ -12,7 +12,6 @@ repos:
     rev: 1.7.9
     hooks:
       - id: bandit
-        args: ["-c", "pyproject.toml"] # Para ele ler configs se você tiver
         additional_dependencies: ["bandit[toml]"]
 
   # 2. Adicionando o Commitizen (Padronização de Mensagens)
