@@ -1,0 +1,19 @@
+[project]
+name = "aula006"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "maurilyo", email = "maurilyo@gmail.com" }
+]
+requires-python = ">=3.12.1"
+dependencies = [
+    "ruff>=0.16.2",
+]
+
+[project.scripts]
+aula006 = "aula006:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
