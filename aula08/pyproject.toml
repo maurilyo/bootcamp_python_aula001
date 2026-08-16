@@ -7,7 +7,11 @@ authors = [
     { name = "maurilyo", email = "maurilyo@gmail.com" }
 ]
 requires-python = ">=3.14.7"
-dependencies = []
+dependencies = [
+    "fastparquet>=2026.5.0",
+    "pandas>=3.0.5",
+    "pandera>=0.32.1",
+]
 
 [project.scripts]
 aula08 = "aula08:main"
